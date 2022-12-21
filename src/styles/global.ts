@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { darken } from 'polished'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -15,6 +16,19 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 720px) {
       font-size: 87.5%;
     }
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+    background: ${({ theme }) => theme.colors.black};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.colors.red};
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${({ theme }) => darken(0.1, theme.colors.red)};
   }
 
 

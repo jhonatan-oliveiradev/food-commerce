@@ -1,0 +1,178 @@
+BURGERS
+
+const data = [
+    {
+      id: 1,
+      snack: 'burger',
+      name: 'Mega Burger',
+      description:
+        'O artesanal tamanho família recheado com três carnes suculentas cobertas por queijo cheddar e deliciosas fatias de bacon caramelizado.',
+      price: 35.9,
+      image: 'https://i.imgur.com/upjIUnG.jpg',
+    },
+    {
+      id: 2,
+      snack: 'burger',
+      name: 'Extra Bacon',
+      description:
+        'Pensado e criado para os amantes de Bacon, possui em todas as suas camadas muuuuito bacon bem passado, além de queijo e carne suculentos.',
+      price: 32.9,
+      image: 'https://i.imgur.com/B4J04AJ.jpg',
+    },
+    {
+      id: 3,
+      snack: 'burger',
+      name: 'Caesar',
+      description:
+        'O imperador entre os hambúrgueres, feito com um burger de 170g de pura carne bovina, queijo cheddar, cebola crispy, alface, tomate, bacon e molho especial.',
+      price: 36,
+      image: 'https://cdn.minhareceita.com.br/2021/02/shutterstock_1490753552-scaled.jpg',
+    },
+    {
+      id: 4,
+      snack: 'burger',
+      name: 'Colossus',
+      description:
+        'O gigantesco burger de 300g de carne bovina assada, queijo cheddar, muito bacon crocante e molho especial.',
+      price: 42.9,
+      image: 'https://i.pinimg.com/564x/59/be/a3/59bea3f11fcbb9690cee993fa98124e6.jpg',
+    },
+    {
+      id: 5,
+      snack: 'burger',
+      name: 'Chicken Burger',
+      description: 'Hambúrguer de frango com queijo cheddar e molho especial.',
+      price: 26,
+      image:
+        'https://jornal140.com/wp-content/uploads/2020/10/Hamburguer-de-Frango-Foto-Churrasqueadas.jpg',
+    },
+    {
+      id: 6,
+      snack: 'burger',
+      name: 'Kids',
+      description:
+        'Hambúrguer de 100g de carne bovina grelhada com mussarela, alface, tomate e molho barbecue.',
+      price: 19.9,
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX7lBe2NTAzeMNBIMEN0Z8fR808_j3tN4OmkkE5XMpTXqHwY5KrixbH4yex8O4tug2Wbs&usqp=CAU',
+    },
+  ]
+
+PIZZAS
+
+const data = [
+    {
+      id: 1,
+      snack: 'pizza',
+      name: 'Calabresa',
+      description:
+        'Pizza recheada ccom calabresa, cebola, mussarela, orégano e azeitona, tendo uma borda recheada com catupiry',
+      price: 65,
+      image: 'https://i.imgur.com/5rjJGkV.jpg',
+    },
+    {
+      id: 2,
+      snack: 'pizza',
+      name: 'Portuguesa',
+      description:
+        'Recheada com presunto, mussarela, ovo, cebola, azeitona, orégano, tomate e molho de tomate, essa pizza é o pedido ideal pra matar sua fome! Acompanha borda recheada com catupiry.',
+      price: 69,
+      image: 'https://i.imgur.com/WCoyGoI.jpg',
+    },
+    {
+      id: 3,
+      snack: 'pizza',
+      name: 'Frango com Catupiry',
+      description: 'Recheada com frango triturado, catupiry cremoso e mussarela.',
+      price: 65,
+      image:
+        'http://www.hojetemfrango.com.br/wp-content/uploads/2019/01/shutterstock_333724454.jpg',
+    },
+    {
+      id: 4,
+      snack: 'pizza',
+      name: 'Marguerita',
+      description: 'Recheada com mussarela, tomate, manjericão e azeite de oliva.',
+      price: 59,
+      image:
+        'https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2020/08/pizza-margherita.jpg?fit=1200%2C675&ssl=1',
+    },
+    {
+      id: 5,
+      snack: 'pizza',
+      name: 'Quatro Queijos',
+      description: 'Recheada com mussarela, catupiry, provolone e gorgonzola.',
+      price: 65,
+      image:
+        'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d036cd01122da62bf581784f52d99b3a.jpg',
+    },
+    {
+      id: 6,
+      snack: 'pizza',
+      name: 'Napolitana',
+      description: 'Recheada com mussarela, tomate, manjericão, azeite de oliva e orégano.',
+      price: 65,
+      image: 'https://blog.livup.com.br/wp-content/uploads/2021/06/pizza-napolitana.jpg',
+    },
+  ]
+
+DRINKS
+
+const data = [
+    {
+      id: 1,
+      snack: 'drink',
+      name: 'Coca-Cola 2L',
+      description:
+        'A tradicional Coca-Cola em um tamanho maior, ideal para dividir com a família e os amigos.',
+      price: 12,
+      image: 'https://i.imgur.com/Lg3aKhf.jpg',
+    },
+    {
+      id: 2,
+      snack: 'drink',
+      name: 'Guaraná Antartica',
+      description: 'O irresistivel sabor do Guaraná Antarctica em sua versão lata.',
+      price: 6.5,
+      image: 'https://i.imgur.com/hOBrOIm.jpg',
+    },
+    {
+      id: 3,
+      snack: 'drink',
+      name: 'Suco de Laranja',
+      description: 'O sabor refrescante do suco de laranja natural.',
+      price: 8,
+      image: 'https://i.imgur.com/VV9qTMh.jpg',
+    },
+  ]
+
+ICE-CREAMS
+
+const data = [
+    {
+      id: 1,
+      snack: 'ice-cream',
+      name: 'Casquinha',
+      description:
+        'A casquinha de sorvete mais gostosa do Brasil, com o sabor irresistível de chocolate.',
+      price: 4.5,
+      image: 'https://i.imgur.com/YGmeoCm.jpg',
+    },
+    {
+      id: 2,
+      snack: 'ice-cream',
+      name: 'Chocolatto',
+      description: 'Sorvete de chocolate coberto com raspas de chocolate pra você se deliciar.',
+      price: 6,
+      image: 'https://i.imgur.com/osAHOLe.jpg',
+    },
+    {
+      id: 3,
+      snack: 'drink',
+      name: 'Flocos',
+      description:
+        'O tradicional sabor de flocos com deliciosa cobertura chocolate pra adoçar seu dia.',
+      price: 7,
+      image: 'https://i.imgur.com/qgnFLiy.jpg',
+    },
+  ];
