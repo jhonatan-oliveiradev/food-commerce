@@ -1,12 +1,13 @@
-import { useState, useEffect } from 'react';
-import { Head } from '../../../components/Head';
-import { SnackTitle } from '../../../components/SnackTitle';
-import Snacks from '../../../components/Snacks';
+import { useState, useEffect } from "react";
+import { Head } from "../../../components/Head";
+import { SnackTitle } from "../../../components/SnackTitle";
+import Snacks from "../../../components/Snacks";
 
-import { getDrinks } from '../../../services/api';
+import { getDrinks } from "../../../services/api";
+import { SnackData } from "../../../interfaces/SnackData";
 
 export default function Drinks() {
-  const [drinks, setDrinks] = useState([]);
+  const [drinks, setDrinks] = useState<SnackData[]>([]);
 
   useEffect(() => {
     (async () => {
