@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { darken } from 'polished'
+import { darken } from "polished";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
@@ -15,6 +15,24 @@ export const Container = styled.div`
     background: ${({ theme }) => theme.colors.black};
     padding: 1.75rem 1.5rem;
     border-radius: 0.25rem;
+
+    span {
+      position: absolute;
+      top: -0.5rem;
+      left: -0.5rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: ${({ theme }) => theme.colors.red};
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+
+      font-weight: 500;
+      font-size: 1.125rem;
+    }
 
     h2 {
       margin-bottom: 0.75rem;
@@ -71,4 +89,4 @@ export const Container = styled.div`
       }
     }
   }
-`
+`;

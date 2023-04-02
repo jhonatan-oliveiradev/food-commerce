@@ -6,9 +6,9 @@
 &nbsp;
 
 <p align="center">
-  <a href="#-Tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#License">License</a>
 </p>
 
 <p align="center">
@@ -18,13 +18,17 @@
 </p>
 
 <p align="center">
-    <img style="border-radius: 20px;" src="../public/preview.png" alt="preview">
+    <img style="border-radius: 20px;" src="./preview.png" alt="preview">
 </p>
 
 <br>
 
+# New feature:
+
+### Cart page implemmented:
+
 <p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%" />
+    <img style="border-radius: 20px;" src="./cart.png" alt="preview cart">
 </p>
 
 # 📄 Description
@@ -33,11 +37,11 @@
 
 - This is a project made with React and Typescript, it is a food commerce, where you can add products to the cart and see the total price of the products.
 
-# 🚀 Tecnologies
+# 🚀 Technologies
 
 This project was developed with the following technologies:
 
-### React 📝
+### ReactJS 📝
 
 ### TypeScript 📝
 
@@ -88,12 +92,10 @@ Go to http://localhost:3000/ to see the result.
 
 # 🎨 Inspiration
 
-
-
 # 📝 License
 
-This project is under the MIT license. See the [LICENSE](../LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](../LICENSE.md) for more information.
 
 <hr>
 
-<p align="center">Made by <a href="https://wwwjhonatan.oliveira.com/" target="_blank">Jhonatan Oliveira</a>.</p>
+<p align="center">Made by <a href="https://jhonatanoliveira.com/" target="_blank">Jhonatan Oliveira</a>.</p>

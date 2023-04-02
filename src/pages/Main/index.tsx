@@ -1,10 +1,9 @@
 import { Outlet } from 'react-router-dom'
 
-import { Sidebar } from '../../components/Sidebar'
-
-import { Container } from './styles'
-
 import logoImg from '../../assets/logo.svg'
+import { MyOrder } from '../../components/MyOrder';
+import { Sidebar } from '../../components/Sidebar'
+import { Container } from './styles'
 
 export default function Main() {
   return (
@@ -14,6 +13,7 @@ export default function Main() {
         <img src={logoImg} alt='logotipo' />
         <Outlet />
       </section>
+      <MyOrder />
     </Container>
-  )
+  );
 }
