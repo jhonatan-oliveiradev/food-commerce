@@ -1,3 +1,18 @@
 {
-  "dotenv.enableAutocloaking": false
+  "dotenv.enableAutocloaking": false,
+  "cSpell.words": [
+    "bairro",
+    "celular",
+    "CNPJ",
+    "completo",
+    "conter",
+    "deve",
+    "estado",
+    "inválido",
+    "número",
+    "obrigatória",
+    "obrigatório",
+    "sobrenome",
+    "válido"
+  ]
 }
