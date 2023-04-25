@@ -27,9 +27,24 @@ interface CartProviderProps {
 
 export const CartContext = createContext({} as CartContextProps);
 
+const localStorageKey = "@FoodCommerce:cart";
+
 export function CartProvider({ children }: CartProviderProps) {
   const navigate = useNavigate();
-  const [cart, setCart] = useState<Snack[]>([]);
+  const [cart, setCart] = useState<Snack[]>(() => {
+    const value = localStorage.getItem(localStorageKey);
+    if (value) return JSON.parse(value);
+    return [];
+  });
+
+  function saveCart(items: Snack[]) {
+    setCart(items);
+    localStorage.setItem(localStorageKey, JSON.stringify(items));
+  }
+
+  function clearCart() {
+    localStorage.removeItem(localStorageKey);
+  }
 
   function addSnackIntoCart(snack: SnackData): void {
     // buscar
@@ -60,7 +75,7 @@ export function CartProvider({ children }: CartProviderProps) {
         progress: undefined,
         theme: "dark",
       });
-      setCart(newCart);
+      saveCart(newCart);
 
       return;
     }
@@ -80,13 +95,13 @@ export function CartProvider({ children }: CartProviderProps) {
       progress: undefined,
       theme: "dark",
     });
-    setCart(newCart);
+    saveCart(newCart);
   }
 
   function removeSnackFromCart(snack: Snack) {
     const newCart = cart.filter((item) => !(item.id === snack.id && item.snack === snack.snack));
 
-    setCart(newCart);
+    saveCart(newCart);
   }
 
   function updateSnackQuantity(snack: Snack, newQuantity: number) {
@@ -125,6 +140,7 @@ export function CartProvider({ children }: CartProviderProps) {
 
   function payOrder(customer: CustomerData): void {
     console.log("payOrder", cart, customer);
+    clearCart(); // deve executar após OK da API
 
     return;
   }
