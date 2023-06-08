@@ -88,7 +88,7 @@ Go to http://localhost:3000/ to see the result.
 
 # 🚧 Project
 
-### [Live project!](https://) 🚀
+### [Live project!](https://food-commerce-seven.vercel.app) 🚀
 
 # 🎨 Inspiration
 
