@@ -5,7 +5,7 @@ import { Container } from "../styles";
 export function PayOrder() {
   const { cart } = useCart();
 
-  const totalAmount = cart.reduce((acc, item) => (acc += item.subtotal), 0);
+  const totalAmount = cart.reduce((acc, item) => (acc += Number(item.subtotal)), 0);
 
   return (
     <Container>
